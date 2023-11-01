@@ -80,3 +80,10 @@ The `config.py` file is used to store configuration variables for the system. Th
 - `stark_bank_id`: This is your Stark Bank project's ID. You should set this as an environment variable named `STARK_BANK_ID`.
 
 Please ensure these environment variables are set correctly in your system before running the application.
+
+## Running Tests
+
+This project uses `pytest` for testing.
+
+```bash
+pytest
